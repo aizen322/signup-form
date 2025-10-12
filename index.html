@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="leftside-container">
+        <div class="logo-container">
+            <img src="https://tinyurl.com/odinlogo" alt="odin logo" id="odin-logo">
+            <h1 id="odin-logo-text">ODIN</h1>
+        </div>
+
+        <div class="leftside-footer">
+            <p>Photo by Hailie West on Unsplash</p>
+        </div>
+
+    </div>
+    <div class="rightside-container">
+        <div class="header-container">
+            <h1>This is not a real online service! You know you need something like this in your
+            life to help you realize your deepest dreams.<br>
+            Sign up now to get started.
+            </h1>
+            <h1>You know you want to.</h1>
+        </div>
+        
+
+        <div class="form-container">
+            <h2>Let's do this!</h2>
+            <form id="signup-form" action="#">
+                <fieldset id="name-info-fieldset">
+                    <div>
+                        <label for="firstName">FIRST NAME</label>
+                        <br>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div>
+                        <label for="lastName">LAST NAME</label>
+                        <br>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </fieldset>
+                <fieldset id="contact-info-fieldset">
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <br>
+                        <input type="text" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <br>
+                        <input type="text" id="phoneNumber" name="phoneNumber" required>
+                    </div>
+                </fieldset>
+                <fieldset id="password-info-fieldset">
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <br>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div>
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <br>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+
+        <div class="bottom-container">
+            <button>Create Account</button>
+            <p>Already have an account? Log in</p>
+        </div>
+    </div>
+</body>
+</html>
