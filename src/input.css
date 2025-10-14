@@ -1,0 +1,36 @@
+@import "tailwindcss";
+/*******/
+
+@font-face {
+    font-family: 'NorseBold';
+    src: url('/fonts/Norse-Bold.otf') format('opentype');
+}
+/*******/
+
+@theme {
+    --font-norse: 'NorseBold', sans-serif;
+}
+/*******/
+
+
+
+
+.form-container{
+    background-color: white;
+    width: 100%;
+}
+
+#name-info-fieldset, #contact-info-fieldset, #password-info-fieldset{
+    display: flex;
+    border: none;
+}
+
+.rightside-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    gap: 32px;
+}

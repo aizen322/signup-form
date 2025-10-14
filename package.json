@@ -9,7 +9,6 @@
     "type": "git",
     "url": "git+https://github.com/aizen322/signup-form.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -19,7 +18,6 @@
   "description": "",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.14",
-    "css": "^3.0.0",
-    "tailwind": "^4.0.0"
+    "tailwindcss": "^4.1.14"
   }
 }
